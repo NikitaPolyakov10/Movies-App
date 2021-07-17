@@ -1,0 +1,27 @@
+.movies-menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: #133e4a;
+  border-bottom: 2px solid #28afab;
+  border-top: 2px solid #28afab;
+}
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 16px auto;
+}
+.link {
+  color: #fff;
+}
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.pagination-container button:not(:last-child) {
+  margin-right: 16px;
+}
