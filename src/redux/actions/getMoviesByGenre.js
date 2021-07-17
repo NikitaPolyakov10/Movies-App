@@ -22,7 +22,7 @@ export const fetchMoviesGenreFailure = (error) => {
   };
 };
 
-export const fetchGenreMovies = (pageId, genreId, sortBy) => async (dispatch) => {
+export const fetchGenreMovies = (pageId, genreId) => async (dispatch) => {
   try {
     dispatch(fetchMoviesGenreRequest());
     const data = await fetch(`https://api.themoviedb.org/3/discover/movie/?api_key=d9adebc9c7c79afb794e0b1ace9395ff&with_genres=${genreId}&page=${pageId}`);

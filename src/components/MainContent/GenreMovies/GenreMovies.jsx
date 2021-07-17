@@ -27,7 +27,7 @@ const GenreMovies = () => {
 
   useEffect(() => {
     dispatch(fetchGenreMovies(pageId, genreId));
-  }, [dispatch, pageId, genreId]);
+  }, [dispatch, genreId, pageId]);
 
   const menuList = genreTypes.map((genre) => ({
     label: genre.name,
