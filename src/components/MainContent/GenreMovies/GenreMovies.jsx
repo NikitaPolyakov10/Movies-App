@@ -2,12 +2,14 @@ import './GenreMovies.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router';
 import React, { useEffect, useCallback } from 'react';
-import { getGenreMovies, getGenres, getGenreMoviesData } from '../../../redux/selectors/selectors';
+import { getGenreMovies, getGenres, getGenreMoviesData, getGenreMoviesLoading, getGenreMoviesError } from '../../../redux/selectors/selectors';
 import { fetchGenreMovies } from '../../../redux/actions/getMoviesByGenre';
 import { useHistory } from 'react-router-dom';
 import Movie from '../Movie';
 import Menu from '../../Menu/Menu';
 import Button from '../../Button';
+import Loader from '../../Loader';
+import Error from '../../Error';
 
 const GenreMovies = () => {
   const { pageId, genreId } = useParams();
@@ -15,6 +17,8 @@ const GenreMovies = () => {
 
   const dispatch = useDispatch();
   const moviesByGenre = useSelector(getGenreMovies) || [];
+  const loading = useSelector(getGenreMoviesLoading) || false;
+  const error = useSelector(getGenreMoviesError) || '';
   const genreTypes = useSelector(getGenres) || {};
 
   const moviesByGenreData = useSelector(getGenreMoviesData) || {};
@@ -39,6 +43,14 @@ const GenreMovies = () => {
     push(`/movies/genre/${genreId}/${+pageId - 1}`);
     window.scrollTo(0, 0);
   }, [genreId, pageId, push]);
+
+  if (loading) {
+    return <Loader />;
+  }
+
+  if (!loading && error) {
+    return <Error />;
+  }
 
   return (
     <div>
