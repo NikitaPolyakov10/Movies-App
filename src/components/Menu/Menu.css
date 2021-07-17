@@ -1,0 +1,28 @@
+.menu-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 8px;
+  margin-left: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menu-list-item {
+  padding: 8px;
+  margin-right: 8px;
+}
+.menu-link {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.5s ease-out;
+}
+.menu-link:hover {
+  color: #31ddd3;
+}
+.menu-link.active {
+  color: #31ddd3;
+}
+.menu-list-item:last-child {
+  margin-right: 0;
+}

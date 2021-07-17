@@ -1,0 +1,34 @@
+.movie-trailers {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+}
+.trailer-link-container {
+  margin-bottom: 16px;
+}
+.trailer-link {
+  max-width: 300px;
+  width: 100%;
+  min-height: 65px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #e50a0ab8;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s ease-in;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.trailer-link:hover {
+  transform: scale(1.05);
+}
+.trailer-link-name {
+  margin-right: 5px;
+}
+.play-trailer-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
