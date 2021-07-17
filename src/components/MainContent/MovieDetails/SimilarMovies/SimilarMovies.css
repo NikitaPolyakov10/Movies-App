@@ -1,0 +1,13 @@
+.similar-movies-container {
+  margin-top: 24px;
+}
+.similar-movies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.similar-movies-title {
+  color: #fff;
+  margin-bottom: 16px;
+}
