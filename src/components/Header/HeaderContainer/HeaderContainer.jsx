@@ -31,7 +31,7 @@ const HeaderContainer = () => {
   return (
     <header className="header-wrapper">
       <div className="logo-wrapper">
-        <a href={'/movies/popular/page/1'}>
+        <a href={'https://movies-app.pages.dev/movies/popular/page/1'}>
           <img src={logo} alt="logo" className="logo" />
         </a>
       </div>
