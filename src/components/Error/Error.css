@@ -1,0 +1,30 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 16px;
+  color: #fff;
+  height: 100vh;
+}
+.error-title {
+  font-size: 78px;
+  margin-bottom: 8px;
+}
+.error-text {
+  font-size: 44px;
+}
+.home-link {
+  margin-top: 110px;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 8px;
+  transition: all 0.3s;
+  font-size: 24px;
+  background-color: #133e4a;
+}
+.home-link:hover {
+  color: #000000;
+  background-color: #31ddd3;
+}
