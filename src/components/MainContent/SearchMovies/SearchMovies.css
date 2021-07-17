@@ -1,0 +1,11 @@
+.search-header {
+  padding: 16px;
+  color: #fff;
+  font-size: 24px;
+}
+.search-movies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
