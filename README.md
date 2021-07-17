@@ -1,7 +1,7 @@
 <h1 align="center">Movies App</h1>
 <div>
   <span align="center">Project coded by:
-    <a href="https://www.linkedin.com/in/nikita-polyakov-5aaa01201/" target="blank">NP</a> 
+    <a href="https://www.linkedin.com/in/nikita-polyakov-5aaa01201/" target="_blank">NP</a> 
   </span>
 </div>
 <br>
@@ -12,4 +12,4 @@ With this application you can see movies downloaded from <a href="https://www.th
 Repository include project with usage React, Redux, Redux-thunk, React-Router-Dom.
 
 ## Check it out
-<a href="https://movies-app.pages.dev/movies/popular/page/1" target="blank">Movies App</a>()
+<a href="https://movies-app.pages.dev/movies/popular/page/1" target="_blank">Movies App</a>
