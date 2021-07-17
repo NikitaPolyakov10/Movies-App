@@ -12,6 +12,8 @@ With this application you can see movies downloaded from <a href="https://www.th
   Repository include project with usage React, Redux, Redux-thunk, React-Router-Dom.
 
 
+## Check it out ##
+[Movies App](https://movies-app.pages.dev/movies/popular/page/1)
 
 
 
