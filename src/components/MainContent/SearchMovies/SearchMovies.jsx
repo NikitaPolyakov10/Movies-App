@@ -8,7 +8,7 @@ import React, { useEffect, useCallback } from 'react';
 import Movie from '../Movie';
 import Loader from '../../Loader';
 import Error from '../../Error';
-import Button from '../../Buttons/Button';
+import Button from '../../Button';
 
 const SearchMovies = () => {
   const { pageId, searchValue } = useParams();

@@ -7,7 +7,7 @@ import { fetchGenreMovies } from '../../../redux/actions/getMoviesByGenre';
 import { useHistory } from 'react-router-dom';
 import Movie from '../Movie';
 import Menu from '../../Menu/Menu';
-import Button from '../../Buttons/Button';
+import Button from '../../Button';
 
 const GenreMovies = () => {
   const { pageId, genreId } = useParams();

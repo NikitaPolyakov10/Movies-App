@@ -6,7 +6,7 @@ import { fetchMovieReviews } from '../../../../redux/actions/getMovieReviews';
 import { getMovieReviews } from '../../../../redux/selectors/selectors';
 import { format } from 'date-fns';
 import user from '../../../../img/movie-details/user.svg';
-import Button from '../../../Buttons/Button';
+import Button from '../../../Button';
 
 const MovieReviews = () => {
   const dispatch = useDispatch();

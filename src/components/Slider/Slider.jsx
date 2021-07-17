@@ -6,7 +6,7 @@ import { getUpcomingMovies } from '../../redux/selectors/selectors';
 import { IMG_PATH } from '../MainContent/Movie/Movie';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Navigation, Pagination, EffectFade, Autoplay } from 'swiper/core';
-import Button from '../Buttons/Button/Button';
+import Button from '../Button';
 import './Slider.css';
 import 'swiper/swiper.min.css';
 import 'swiper/components/effect-fade/effect-fade.min.css';

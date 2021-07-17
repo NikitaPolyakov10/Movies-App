@@ -11,7 +11,7 @@ import Movie from '../Movie';
 import Loader from '../../Loader';
 import Menu from '../../Menu/Menu';
 import Slider from '../../Slider/Slider';
-import Button from '../../Buttons/Button/Button';
+import Button from '../../Button';
 
 const menu_list = [
   {
