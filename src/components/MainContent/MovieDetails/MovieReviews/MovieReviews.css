@@ -1,0 +1,62 @@
+.movie-reviews {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+.review-wrapper {
+  margin-left: 16px;
+}
+.review-body h4 {
+  margin-bottom: 8px;
+}
+.genre-box {
+  padding: 4px 8px;
+  background-color: teal;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-right: 4px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in;
+}
+.genre-box:hover {
+  cursor: pointer;
+  border: 1px solid white;
+}
+.genre-box:last-child {
+  margin-right: 0;
+}
+.review-wrapper .review-footer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 8px;
+}
+.review {
+  display: flex;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 16px 24px;
+  background-color: #133e4a;
+  margin-bottom: 16px;
+}
+.review-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.reviewer-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.review-author-name {
+  font-size: 20px;
+}
+.reviews-title {
+  margin-bottom: 16px;
+}
