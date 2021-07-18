@@ -59,10 +59,10 @@ const SearchMovies = () => {
       </div>
       {allPages > currentPage ? (
         <div className="pagination-container">
-          <Button className="pagination-button" onClick={decrementPage}>
+          <Button className="pagination-button" onClick={decrementPage} disabled={currentPage > 1 ? false : true}>
             Previous Page
           </Button>
-          <Button className="pagination-button" onClick={incrementPage}>
+          <Button className="pagination-button" onClick={incrementPage} disabled={currentPage === allPages ? true : false}>
             Next Page
           </Button>
         </div>
