@@ -34,7 +34,7 @@ const SearchMovies = () => {
   }, [searchValue, pageId, push]);
 
   const decrementPage = useCallback(() => {
-    push(`/movies/genre/${searchValue}/${+pageId + 1}`);
+    push(`/movies/search/${searchValue}/${+pageId - 1}`);
     window.scrollTo(0, 0);
   }, [searchValue, pageId, push]);
 
